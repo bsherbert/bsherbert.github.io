@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
             <a class="navbar-brand" href="#top">Brian Sherbert</a>
             
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,13 +37,22 @@
             </div>
         </nav>
 
-        <div className="container">
-            <div className="top">
-                <h1>Brian Sherbert</h1>
-            </div>
 
-            <div className="about">
-                <h2>About</h2>
+            <div id="carouselExampleSlidesOnly" class="top carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="c-image d-flex align-items-center justify-content-center flex-column w-100 min-vh-100">
+                            <h1>Brian Sherbert???</h1>
+                            <h3>professional worker</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="section-container">
+            <div class="section" id="about">
+                <h2 class="title">About</h2>
+                    <img src="images/Profile.jpg">
                 <p>Hello!<br>
                 My name is Brian and I am a Software Developer! I recently graduated from Rutgers University with a double major in Computer Science
                 and Information Technology & Informatics. For a comprehensive look at the coursework I completed, check out my !HANDSHAKE PAGE! or for a
@@ -55,19 +64,23 @@
                     
             </div>
 
-            <div className="skills">
+            <div class="section" id="skills">
+                <h2 class="title">Skills</h2>
                 Languages: Java, Javascript, Html, Css, C, Python, MySQL
                 Other: Node.js, React, MongoDB, Express, VSCode, Eclipse, Git,
             </div>
 
-            <div className="projects">
-                <h2>Projects</h2>
+            <div class="section" id="projects">
+                <h2 class="title">Projects</h2>
+                <img src="images/project-a-sample.png">
                 A* maze traversal
+                <br><br>
+                <img src="images/project-b-sample.png">
                 Digit Classifier
             </div>
 
-            <div className="contact">
-                <h2>Contact Me</h2>
+            <div class="section" id="contact">
+                <h2 class="title">Contact Me</h2>
                     <form action="https://formspree.io/xoqpazda" method="POST">
 
                     <label>
@@ -88,6 +101,10 @@
                 </form>
             </div>
         </div>
+
+        <footer>
+            footer here
+        </footer>
 
         
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
