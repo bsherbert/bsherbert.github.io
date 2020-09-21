@@ -1,3 +1,7 @@
+body{
+    font-family: 'Slabo 13px', serif;
+}
+
 .carousel img{
     max-height: 1px;
 }
@@ -26,12 +30,12 @@
     padding-top: 2px;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
+    margin: auto;    
     margin-bottom: 30px;
+    width: 250px;
 }
 
-#about img{
-    width: 40%;
-}
+
 
 #projects img{
     width: 20%;
@@ -40,6 +44,25 @@
 
 .nav-padding{
     padding-bottom: 56px;
+}
+
+.about-box, .skills-box{
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    align-content: center;
+    width: 70%;
+    margin: auto;
+}
+
+#about img{
+    width: 260px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+#about p{
+    width: 45%;
 }
 
 html{
