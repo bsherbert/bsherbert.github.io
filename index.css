@@ -35,16 +35,11 @@ body{
     width: 250px;
 }
 
-#projects img{
-    width: 20%;
-    border: 1px solid black;
-}
-
 .nav-padding{
     padding-bottom: 56px;
 }
 
-.about-box, .skills-box{
+.about-box, .skills-box, .projects-box{
     display: flex;
     align-items: center;
     justify-content:  center;
@@ -63,12 +58,16 @@ body{
     width: 45%;
 }
 
+.progress{
+    height: 20px;
+}
+
 .skills-column{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .skills-object{
@@ -91,6 +90,14 @@ body{
 
 .skills-details{
     width: 70%;
+}
+
+.projects-box{
+    flex-direction: column;
+}
+
+#projects img{
+    border: 1px solid black;
 }
 
 html{
