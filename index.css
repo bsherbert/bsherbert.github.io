@@ -35,8 +35,6 @@ body{
     width: 250px;
 }
 
-
-
 #projects img{
     width: 20%;
     border: 1px solid black;
@@ -63,6 +61,36 @@ body{
 
 #about p{
     width: 45%;
+}
+
+.skills-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.skills-object{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+}
+
+.skills-object img{
+    width: 100%;
+}
+
+.skills-image{
+    width: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.skills-details{
+    width: 70%;
 }
 
 html{
