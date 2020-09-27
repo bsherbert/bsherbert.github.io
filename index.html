@@ -63,8 +63,7 @@
                     My name is Brian and I recently graduated from Rutgers University with a double major in Computer Science
                     and Information Technology & Informatics. <br> 
                     In addition to my tech experience, I have a strong background in Mathematics and problem solving from the nature of my degree path. 
-                    For a comprehensive look at the coursework I completed, check out the !COURSEWORK SECTION!, or for a
-                    look at the highlights, take a look at my !RESUME! <br>
+                    For a look at my highlights, please take a look at my !RESUME!, or if you have any questions, please feel free to !CONTACT ME!! <br>
                     Please continue on to see what I have been working on this past summer, 
                     and learn a bit more about me! 
                     Outside of programming I have a passion for guitar playing and composing music, and am always looking for new experiences!</p>
@@ -260,78 +259,30 @@
 
             </div>
 
-            <div class="section" id="coursework">
-                <div class="nav-padding"></div>
-                <h2 class="title">Coursework</h2>
-
-                <div class="accordion" id="accordionExample">
-                    <div class="card">
-                      <div class="card-header" id="headingOne">
-                        <h2 class="mb-0">
-                          <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Collapsible Group Item #1
-                          </button>
-                        </h2>
-                      </div>
-                  
-                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                        <div class="card-body">
-                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-header" id="headingTwo">
-                        <h2 class="mb-0">
-                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Collapsible Group Item #2
-                          </button>
-                        </h2>
-                      </div>
-                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                        <div class="card-body">
-                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-header" id="headingThree">
-                        <h2 class="mb-0">
-                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Collapsible Group Item #3
-                          </button>
-                        </h2>
-                      </div>
-                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                        <div class="card-body">
-                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-            </div>
-
             <div class="section" id="contact">
                 <div class="nav-padding"></div>
                 <h2 class="title">Contact Me</h2>
-                    <form action="https://formspree.io/xoqpazda" method="POST">
-                        
-                        <div class="form-group">
-                            <label for="inputName">Your Name:</label>
-                            <input type="text" class="form-control" id="inputName" name="name" required>
+                <form action="https://formspree.io/xoqpazda" method="POST">                        
+                    <div class="contact-box">
+                        <div class="contact-info">
+                            <div class="form-group contact-info-item1">
+                                <label for="inputName">Your Name:</label>
+                                <input type="text" class="form-control" id="inputName" name="name" required placeholder="Full name">
+                            </div>
+                            <div class="form-group contact-info-item2">
+                                <label for="inputEmail">Your Email:</label>
+                                <input type="email" class="form-control" id="inputEmail" name="_replyto" required placeholder="email@example.com">
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="inputEmail">Your Email:</label>
-                            <input type="email" class="form-control" id="inputEmail" name="_replyto" required>
-                          </div>
-                          <div class="form-group">
-                            <label for="inputMessage">Message:</label>
-                            <textarea class="form-control" id="InputMessage" rows="3" name="message" required></textarea>
+                        <div class="contact-message">
+                            <div class="form-group">
+                                <label for="inputMessage">Message:</label>
+                                <textarea class="form-control" id="InputMessage" rows="3" name="message" required placeholder="What would you like to message me about?"></textarea>
+                            </div>
                         </div>
-                          <input type="submit" value="Send">
-
-                    </form>
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
             </div>
         </div>
 
