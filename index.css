@@ -100,6 +100,10 @@ body{
     border: 1px solid black;
 }
 
+.card-img{
+    object-fit:cover;
+}
+
 .contact-box{
     flex-direction: column;
 }
@@ -123,6 +127,10 @@ body{
     width: 65%;
 }
 
+.btn{
+    width: 15%;
+}
+
 .footer-box{
     display: flex;
     justify-content: space-evenly;
@@ -136,8 +144,6 @@ footer{
     color: white;
     background-color: #333333;
 }
-
-
 
 html{
     scroll-behavior: smooth;
