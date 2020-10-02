@@ -4,6 +4,12 @@ body{
 
 h1, h2, h3{
     font-family: 'Slabo 27px', serif;
+    text-shadow: -1px 1px 1px black;
+    box-shadow: 0px 1px 1px black;
+}
+
+.carousel h1, .carousel h3{
+    box-shadow: none;
 }
 
 .navbar-brand{
@@ -196,7 +202,5 @@ html{
    .navbar a{
        padding: 12px;
    }
-
-
 
 }            
