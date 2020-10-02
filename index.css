@@ -2,6 +2,18 @@ body{
     font-family: 'Slabo 13px', serif;
 }
 
+h1, h2, h3{
+    font-family: 'Slabo 27px', serif;
+}
+
+.navbar-brand{
+    font-size: 27px;
+}
+
+h1{
+    font-size: 5rem;
+}
+
 .carousel img{
     max-height: 1px;
 }
@@ -36,8 +48,19 @@ body{
 }
 
 .nav-padding{
-    padding-bottom: 56px;
+    padding-bottom: 82px;
 }
+
+.navbar a{
+    padding: 23px 10px;
+}
+
+
+
+.navbar li{
+    font-size: 1.2rem;
+}
+
 
 .about-box, .skills-box, .projects-box, .contact-box{
     display: flex;
@@ -60,6 +83,10 @@ body{
 
 .progress{
     height: 20px;
+}
+
+.skills-box{
+    justify-content: space-evenly;
 }
 
 .skills-column{
@@ -89,7 +116,7 @@ body{
 }
 
 .skills-details{
-    width: 70%;
+    width: 100%;
 }
 
 .projects-box{
@@ -148,3 +175,28 @@ footer{
 html{
     scroll-behavior: smooth;
 }
+
+
+@media (min-width: 768px) {
+    .navbar {
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+}
+@media (max-width: 767px) {
+   .navbar-header {
+       height: 80px;
+       padding-top: 15px;
+       padding-bottom: 15px;
+   }
+   .navbar-toggle {
+       margin-top: 5px;
+   }
+   .navbar a{
+       padding: 12px;
+   }
+
+
+
+}            
