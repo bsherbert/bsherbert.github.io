@@ -125,16 +125,30 @@ h1{
     width: 100%;
 }
 
+.card-header img{
+    border: 1px solid black;
+    object-fit: fill;
+    margin: auto;
+}
+
+.card{
+    width: 70%;
+}
+
+.card-header{
+    margin:
+}
+
 .projects-box{
     flex-direction: column;
 }
 
-#projects img{
-    border: 1px solid black;
+.static-image{
+    position: absolute;
 }
 
-.card-img{
-    object-fit:cover;
+.card:hover .static-image{
+    opacity: 0;
 }
 
 .contact-box{
@@ -145,6 +159,12 @@ h1{
     display: flex;
     justify-content: space-around;
     width: 65%;
+}
+
+.card{
+    width: 700px;
+    margin-top: 20px;
+    margin-bottom: 50px; 
 }
 
 .contact-info-item1{
