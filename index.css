@@ -318,6 +318,10 @@ html{
         width: 500px;
     }
 
+    .static-image{
+        opacity: 0;
+    }
+
     .contact-info{
         display: flex;
         flex-direction: column;
