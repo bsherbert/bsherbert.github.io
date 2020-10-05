@@ -1,3 +1,14 @@
+@keyframes fadein{
+    0%{ 
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100%{ 
+        opacity: 1; 
+        transform: translateY(0);
+    }
+}
+
 body{
     font-family: 'Slabo 13px', serif;
 }
@@ -18,7 +29,7 @@ h1, h2, h3{
 
 h1{
     font-size: 5rem;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 4px 4px 2px black;
 }
 
 h2{
@@ -29,6 +40,7 @@ h2{
 
 h3{
     font-size: 2.25rem;
+    text-shadow: 4px 4px 2px black;
 }
 
 .carousel img{
@@ -36,14 +48,14 @@ h3{
 }
 
 .c-image{
-    background-image: url('images/carousel-image4.jpg');
+    background-image: url('images/carousel-image.jpg');
     background-size: cover;
-    color: white;
-    opacity: 90%;
+    color: #dddddd;
+    text-shadow: 4px 4px 2px black;
 }
 
-.c-image h1{
-    filter: none;
+.c-image h1, .c-image h3{
+    animation: fadein 1.5s;
 }
 
 .section-container{
