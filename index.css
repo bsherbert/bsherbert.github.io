@@ -277,6 +277,13 @@ html{
         align-items: center;
     }
 }
+
+@media(max-width: 1200px){
+    .skills-box{
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 767px) {
    .navbar-header {
        height: 80px;
@@ -289,5 +296,39 @@ html{
    .navbar a{
        padding: 12px;
    }
+   
+    .navbar-nav a:hover{
+        border-top: none;
+        border-left: 2px solid darkblue;
+        padding: 4px;
+    }
+
+    .about-box{
+        flex-direction: column;
+    }
+    #about img{
+        margin-bottom: 20px;
+    }
+    
+    .card{
+        width: 550px;
+    }
+
+    .static-image, .animated-image{
+        width: 500px;
+    }
+
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-info-item1{
+        padding-right: 0px;
+    }
+
+    .contact-info-item2{
+        padding-left: 0px;
+    }
 
 }            
